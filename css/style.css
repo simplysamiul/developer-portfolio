@@ -8,6 +8,8 @@ header{
     background-image: url("../images/top-banner.png");
     background-repeat: no-repeat;
     background-position:relative;
+    top: 0;
+    left: 0;
 }
 .header-text{
     width:50%;
