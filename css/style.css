@@ -156,7 +156,37 @@ h3{
     .dream-text h2{
         font-size:35px;
     }
-    
+}
 
-
+/* mern and mean stack */
+.card{
+    display:flex;
+    text-align:center;
+    box-sizing: border-box;
+    margin-top:50px;
+    margin-bottom: 200px;
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 2.5cm;
+}
+.card-area{
+    margin-left: 5%;
+    padding: 20px 25px 100px 25px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 8px solid orange;
+}
+.card-area:nth-child(2){
+    margin-right: 5%;
+}
+.card-area p{
+    text-align: justify;
+}
+.card-area h2{
+    font-size:30px;
+    margin-bottom: 30px;
+}
+.card-area h4{
+    margin-bottom:30px;
+    color: #fcae1d;
 }
